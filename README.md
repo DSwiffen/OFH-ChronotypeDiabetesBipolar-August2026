@@ -1,12 +1,28 @@
 # OurFutureHealth_ChronotypeAndDiabetesInBipolar_August2026
 
-Does chronotype influence the odds of diabetes comorbidity in bipolar disorder?
-This repository contains code used the analyse the interaction effects of chronotype on the association between type 2 diabetes and bipolar disorder. 
-The analysis used data from the Our Future Health cohort (Data release 14), accessed August 2026.
+Analysis code for a study assessing the interaction effects of chronotype on the association between type 2 diabetes and bipolar disorder. 
 
+PROJECT SUMMARY
 
+The goal of this project was to explore whether chronotype modifies the association between bipolar disorder and type 2 diabetes and whether any effect differs between the sexes. To realise this, cases with bipolar disorder were compared to cases with no mental health problems in logistic regression models both with and without an interaction term (chronotype x mental health status) to generate odds ratios of type 2 diabetes. The regression analysis was adjusted for a range of relevant sociodemographic, lifestyle and health-related covariates.
 
-Details of the code files are below:
+ASSOCIATED PUBLICATION
+
+Submitted.
+
+CONTACT
+
+For any questions, please contact the lead investigator, Dr Duncan Swiffen (dswiffen@ed.ac.uk).
+
+DATA DICTIONARY
+
+A full description of variables used in the analysis can be found in the Our Future Health data dictionary, at this link: https://research.ourfuturehealth.org.uk/data-and-cohort/
+
+GENERAL APPROACH
+
+Two mutually-exclusive groups - bipolar disorder and no mental health problems are created and baseline sociodemographic, lifestyle and health-related factors are compared between groups. Odds ratios are calculated via logistic regression models adjusted for relevant covariates. The first model includes both mental health status group and chronotype, whilst the second model includes a term for their interaction. These models were repeated on the whole sample and in the sample stratified by sex. Likelihood ratios comparing the two types of models were calculated. 
+
+DESCRIPTION OF SCRIPTS
 
 01- cleaning.r 
 A data cleaning file.
