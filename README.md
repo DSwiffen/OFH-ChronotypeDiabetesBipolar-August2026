@@ -17,7 +17,6 @@ Outcome variable ("T2DM") created.
 Predictor variable ("chronotype") created.
 
 02- covariates.r
-Creating covariates to be used in analysis. 
 Covariates are created and missing or invalid responses for each covariate question are reassigned as NA.
 Covariates include Age, Sex, Ethnicity, Smoking, Alcohol, Education, Activity, Medications, Index of Multiple Deprivation, BMI and Multimorbidity.
 Covariates are combined into a baseline characteristics table, separated by sex in both groups. 
