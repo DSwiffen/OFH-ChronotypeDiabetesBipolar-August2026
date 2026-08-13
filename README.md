@@ -9,6 +9,7 @@ The analysis used data from the Our Future Health cohort (Data release 14), acce
 Details of the code files are below:
 
 01- cleaning.r 
+A data cleaning file.
 Data is downloaded from DNANexus into the OFH trusted research environment (TRE). Data files are merged. 
 Variables are then renamed and the mental health groups "Bipolar" and "No MHP" are created.
 Cases are removed from further analysis due to i) not being able to assign them to either of the two groups, ii) night shift working, iii) missing data on chronotype, and iv) being assigned as "No MHP" but self-reporting medications for mental health. At each stage, missing data and total sample counts are created to be used in CONSORT diagram.
@@ -16,6 +17,7 @@ Outcome variable ("T2DM") created.
 Predictor variable ("chronotype") created.
 
 02- covariates.r
+Creating covariates to be used in analysis. 
 Covariates are created and missing or invalid responses for each covariate question are reassigned as NA.
 Covariates include Age, Sex, Ethnicity, Smoking, Alcohol, Education, Activity, Medications, Index of Multiple Deprivation, BMI and Multimorbidity.
 Covariates are combined into a baseline characteristics table, separated by sex in both groups. 
@@ -30,6 +32,7 @@ An optional code file that functions to sum the effect of bipolar on odds of typ
 This is written in long form using baseR to prevent the need to download a specific R package, as many of these are not currently available in the OFH TRE library.
 
 04- complete_versus_incomplete_cases.r
+A comparison of complete versus incomplete cases. 
 The sample is stratified according to cases with a full complement of data in each included covariate and cases that have data missing in at least one covariate. 
 Covariates for complete and incomplete cases are combined into a baseline characteristics table, separated by group. 
 
