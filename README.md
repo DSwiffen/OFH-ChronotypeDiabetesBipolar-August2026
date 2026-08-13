@@ -4,6 +4,8 @@ Does chronotype influence the odds of diabetes comorbidity in bipolar disorder?
 This repository contains code used the analyse the interaction effects of chronotype on the association between type 2 diabetes and bipolar disorder. 
 The analysis used data from the Our Future Health cohort (Data release 14), accessed August 2026.
 
+
+
 Details of the code files are below:
 
 01- cleaning.r 
