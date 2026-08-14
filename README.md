@@ -20,7 +20,7 @@ A full description of variables used in the analysis can be found in the Our Fut
 
 GENERAL APPROACH
 
-Two mutually-exclusive groups - bipolar disorder and no mental health problems are created and baseline sociodemographic, lifestyle and health-related factors are compared between groups. Odds ratios are calculated via logistic regression models adjusted for relevant covariates. The first model includes both mental health status group and chronotype, whilst the second model includes a term for their interaction. These models were repeated on the whole sample and in the sample stratified by sex. Likelihood ratios comparing the two types of models were calculated. 
+Two mutually-exclusive groups - bipolar disorder and no mental health problems - are created and baseline sociodemographic, lifestyle and health-related factors are compared between groups. Odds ratios are calculated via logistic regression models adjusted for relevant covariates. The first model includes both mental health status group and chronotype, whilst the second model includes a term for their interaction. These models were repeated on the whole sample and in the sample stratified by sex. Likelihood ratios comparing the two types of models were calculated. 
 
 DESCRIPTION OF SCRIPTS
 
