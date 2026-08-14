@@ -1,4 +1,4 @@
-# OurFutureHealth_ChronotypeAndDiabetesInBipolar_August2026
+# OFH-ChronotypeDiabetesBipolar-August2026
 
 Analysis code for a study assessing the interaction effects of chronotype on the association between type 2 diabetes and bipolar disorder. 
 
